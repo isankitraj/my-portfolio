@@ -1,0 +1,78 @@
+/* setting font size for whole document so that 1 rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+/* styling body - adding font family, background color etc. */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.7rem;
+  background-color: rgb(104, 179, 254);
+  color: white;
+}
+
+/* adding style to navigation links */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 5rem;
+}
+
+/*  setting default font size of heading 1 element */
+h1{
+    font-size: 4rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+/* when we hover over the elements of list, the color will change to red */
+.nav a:hover {
+  color: #ff0000;
+}
+
+/* aligning content of html to center */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* `text-align: center` rule will center the text of the heading. */
+h1 {
+  color: #ff0000;
+  text-align: center; 
+}
+
+h2 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+li {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav li:hover {
+  color: #ff0000;
+}
+
+/* setting the color when any text is selected in our website */
+::selection {
+  color: red;
+}
+
+/* utility class - can be added by javascript */
+.hidden {
+    display: none;
+}
